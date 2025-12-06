@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Headphonez - Hamburger Menu</title>
+    <link rel="stylesheet" href="8-styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Headphonez Logo">
+            </div>
+            
+            <!-- Hamburger Menu Button -->
+            <button class="hamburger-menu" id="hamburger-btn" aria-label="Toggle navigation menu">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            
+            <!-- Navigation Menu -->
+            <nav class="nav-menu" id="nav-menu">
+                <ul>
+                    <li><a href="#what-we-do">what we do</a></li>
+                    <li><a href="#our-results">our results</a></li>
+                    <li><a href="#contact-us">contact us</a></li>
+                </ul>
+            </nav>
+            
+            <!-- Social Icons (Desktop only) -->
+            <div class="social-icons desktop-only">
+                <a href="#" class="social-icon">📘</a>
+                <a href="#" class="social-icon">🐦</a>
+                <a href="#" class="social-icon">📸</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Lorem ipsum dolor set amet lorem ipsum</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <button class="cta-button">CALL TO ACTION</button>
+                <div class="hero-text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/hero-image.jpg" alt="Woman wearing headphones">
+            </div>
+        </div>
+    </section>
+
+    <!-- What We Do Section -->
+    <section class="what-we-do" id="what-we-do">
+        <div class="container">
+            <h2>What we do...</h2>
+            <div class="services-grid">
+                <div class="service-card animate-item">
+                    <div class="service-icon">
+                        <span class="icon icon-audio"></span>
+                    </div>
+                    <h3>Lorem ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="service-card animate-item">
+                    <div class="service-icon">
+                        <span class="icon icon-video"></span>
+                    </div>
+                    <h3>Lorem ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="service-card animate-item">
+                    <div class="service-icon">
+                        <span class="icon icon-music"></span>
+                    </div>
+                    <h3>Lorem ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="service-card animate-item">
+                    <div class="service-icon">
+                        <span class="icon icon-ear"></span>
+                    </div>
+                    <h3>Lorem ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Results Section -->
+    <section class="our-results" id="our-results">
+        <div class="container">
+            <h2>Our results speak for themselves</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            
+            <div class="results-grid">
+                <div class="result-item animate-item">
+                    <div class="pentagon-container">
+                        <div class="pentagon">
+                            <span>+2%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="result-item animate-item">
+                    <div class="pentagon-container">
+                        <div class="pentagon">
+                            <span>+2%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="result-item animate-item">
+                    <div class="pentagon-container">
+                        <div class="pentagon">
+                            <span>+2%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="result-item animate-item">
+                    <div class="pentagon-container">
+                        <div class="pentagon">
+                            <span>+2%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section class="contact-us" id="contact-us">
+        <div class="container">
+            <h2>contact us</h2>
+            
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" required>
+                    <label for="name">Name</label>
+                </div>
+                
+                <div class="form-group">
+                    <input type="email" id="email" name="email" required>
+                    <label for="email">Email</label>
+                </div>
+                
+                <div class="form-group">
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    <label for="message">Your message</label>
+                </div>
+                
+                <button type="submit" class="submit-button">SEND MESSAGE</button>
+            </form>
+        </div>
+    </section>
+    
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Headphonez Logo">
+            </div>
+            <div class="social-icons">
+                <a href="#" class="social-icon">📘</a>
+                <a href="#" class="social-icon">🐦</a>
+                <a href="#" class="social-icon">📸</a>
+            </div>
+            <p>&copy; Headphonez 2024</p>
+        </div>
+    </footer>
+    
+    <!-- JavaScript -->
+    <script src="8-script.js"></script>
+</body>
+</html>
